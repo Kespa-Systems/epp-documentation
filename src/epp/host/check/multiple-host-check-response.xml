@@ -1,0 +1,23 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <msgQ count='2' id='1'/>
+    <resData>
+      <host:chkData xmlns:host='urn:ietf:params:xml:ns:host-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:host-1.0 host-1.0.xsd'>
+        <host:cd>
+          <host:name avail='1'>ns1.example.com</host:name>
+        </host:cd>
+        <host:cd>
+          <host:name avail='0'>ns2.test.dev</host:name>
+          <host:reason>The host already exists</host:reason>
+        </host:cd>
+      </host:chkData>
+    </resData>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1391535504579</svTRID>
+    </trID>
+  </response>
+</epp>     
