@@ -2,7 +2,7 @@
   <command>
     <info>
       <contact:info xmlns:contact='urn:ietf:params:xml:ns:contact-1.0'>
-        <contact:id>TestContact</contact:id>
+        <contact:id>contact_id</contact:id>
       </contact:info>
     </info>
     <clTRID>ABC-12345</clTRID>
