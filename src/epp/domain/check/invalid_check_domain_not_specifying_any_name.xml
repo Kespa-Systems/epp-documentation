@@ -1,7 +1,8 @@
 <epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
   <command>
     <check>
-      <domain:check xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'> </domain:check>
+      <domain:check xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'> 
+      </domain:check>
     </check>
     <clTRID>ABC-12345</clTRID>
   </command>
