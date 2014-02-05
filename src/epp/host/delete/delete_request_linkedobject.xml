@@ -1,0 +1,11 @@
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <delete>
+            <host:delete
+                xmlns:host="urn:ietf:params:xml:ns:host-1.0">
+                <host:name>ns1.farfar.away</host:name>
+            </host:delete>
+        </delete>
+        <clTRID>ABC-12345</clTRID>
+    </command>
+</epp>
