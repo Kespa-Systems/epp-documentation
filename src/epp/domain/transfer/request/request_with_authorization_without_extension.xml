@@ -4,7 +4,7 @@
     <transfer op="request">
       <domain:transfer
        xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
-        <domain:name>example.com</domain:name>
+        <domain:name>domain.tld</domain:name>
         <domain:authInfo>
           <domain:pw>2fooBAR</domain:pw>
         </domain:authInfo>
