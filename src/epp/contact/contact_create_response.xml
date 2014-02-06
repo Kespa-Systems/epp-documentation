@@ -1,0 +1,18 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <msgQ count='13' id='1'/>
+    <resData>
+      <contact:creData xmlns:contact='urn:ietf:params:xml:ns:contact-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:contact-1.0 contact-1.0.xsd'>
+        <contact:id>new_contact_id</contact:id>
+        <contact:crDate>2014-02-04T11:37:26.0783Z</contact:crDate>
+      </contact:creData>
+    </resData>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1391513846789</svTRID>
+    </trID>
+  </response>
+</epp>

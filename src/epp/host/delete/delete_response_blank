@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="2400">
+            <msg>Command failed</msg>
+        </result>
+        <trID>
+            <svTRID>1391621952960</svTRID>
+        </trID>
+    </response>
+</epp>

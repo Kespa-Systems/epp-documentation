@@ -1,0 +1,20 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <create>
+      <host:create xmlns:host='urn:ietf:params:xml:ns:host-1.0'>
+        <host:name>gary.testing</host:name>
+        <host:status s="clientDeleteProhibited"/> 
+      </host:create>
+    </create>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+        <command>
+            <delete>
+                  <host:delete
+                       xmlns:host="urn:ietf:params:xml:ns:host-1.0">
+                        <host:name>gary.testing</host:name>
+                      </host:delete>
+                </delete>
+            <clTRID>ABC-12345</clTRID>
+      </command>
+</epp>

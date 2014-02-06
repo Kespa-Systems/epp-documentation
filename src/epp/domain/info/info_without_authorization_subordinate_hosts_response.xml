@@ -1,0 +1,33 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <resData>
+      <domain:infData xmlns:domain='urn:ietf:params:xml:ns:domain-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd'>
+        <domain:name>domain.tld</domain:name>
+        <domain:roid>17-Minds</domain:roid>
+        <domain:status s='ok'>Active</domain:status>
+        <domain:registrant>TestContact</domain:registrant>
+        <domain:contact type='billing'>TestContact</domain:contact>
+        <domain:contact type='admin'>TestContact</domain:contact>
+        <domain:contact type='tech'>TestContact</domain:contact>
+        <domain:ns/>
+        <domain:host>ns1.domain.tld</domain:host>
+        <domain:authInfo>
+          <domain:pw>bCyUE9BlGf</domain:pw>
+        </domain:authInfo>
+        <domain:clID>dev1</domain:clID>
+        <domain:crID>dev1</domain:crID>
+        <domain:crDate>2013-08-16T13:36:59.0229Z</domain:crDate>
+        <domain:upID>dev1</domain:upID>
+        <domain:upDate>2014-02-04T15:32:23.0161Z</domain:upDate>
+        <domain:exDate>2014-08-16T13:36:59.0244Z</domain:exDate>
+      </domain:infData>
+    </resData>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1391534740887</svTRID>
+    </trID>
+  </response>
+</epp> 

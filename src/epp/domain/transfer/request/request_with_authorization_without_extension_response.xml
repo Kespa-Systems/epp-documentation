@@ -1,0 +1,23 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <msgQ count='12' id='2'/>
+    <resData>
+      <domain:trnData xmlns:domain='urn:ietf:params:xml:ns:domain-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd'>
+        <domain:name>domain.tld</domain:name>
+        <domain:trStatus>serverApproved</domain:trStatus>
+        <domain:reID>basic</domain:reID>
+        <domain:reDate>2014-02-05T16:22:00.712Z</domain:reDate>
+        <domain:acID>dev1</domain:acID>
+        <domain:acDate>2014-02-05T16:22:00.712Z</domain:acDate>
+        <domain:exDate>2015-08-16T13:37:01.270Z</domain:exDate>
+      </domain:trnData>
+    </resData>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1391617320722</svTRID>
+    </trID>
+  </response>
+</epp> 

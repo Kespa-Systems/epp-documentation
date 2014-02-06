@@ -1,0 +1,11 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='2004'>
+      <msg>Parameter value range error; (9999.12.1.1) is not a valid, public ip</msg>
+    </result>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1391618958395</svTRID>
+    </trID>
+  </response>
+</epp>
