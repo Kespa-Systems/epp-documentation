@@ -1,0 +1,14 @@
+<!-- Assuming this host only has one ip associated: 1.3.3.3  -->
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <update>
+      <host:update xmlns:host='urn:ietf:params:xml:ns:host-1.0'>
+        <host:name>ns.test.dev</host:name>
+        <host:rem>
+          <host:addr>1.3.3.3</host:addr>
+        </host:rem>
+      </host:update>
+    </update>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
