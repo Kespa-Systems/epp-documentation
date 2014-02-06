@@ -1,0 +1,10 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <transfer op='cancel'>
+      <domain:transfer xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>domain-with-nonexisting-transfer-request.tld</domain:name>
+      </domain:transfer>
+    </transfer>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
