@@ -4,7 +4,7 @@
       <host:update xmlns:host='urn:ietf:params:xml:ns:host-1.0'>
         <host:name>ns.test.dev</host:name>
         <host:add>
-          <host:status s='ok'>Client update prohibited</host:status>
+          <host:status s='ok'></host:status>
         </host:add>
       </host:update>
     </update>
