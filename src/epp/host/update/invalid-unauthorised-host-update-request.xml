@@ -1,0 +1,14 @@
+<!-- Host created by 'dev1', but logged in as 'basic' -->
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <update>
+      <host:update xmlns:host='urn:ietf:params:xml:ns:host-1.0'>
+        <host:name>ns1.fake.com</host:name>
+        <host:chg>
+          <host:name>ns3.fake.com</host:name>
+        </host:chg>
+      </host:update>
+    </update>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
