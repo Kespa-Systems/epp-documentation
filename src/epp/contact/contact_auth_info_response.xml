@@ -1,0 +1,47 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <msgQ count='13' id='1'/>
+    <resData>
+      <contact:infData xmlns:contact='urn:ietf:params:xml:ns:contact-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:contact-1.0 contact-1.0.xsd'>
+        <contact:id>contact_id</contact:id>
+        <contact:roid>9-Minds</contact:roid>
+        <contact:status s='ok'>No changes pending</contact:status>
+        <contact:status s='linked'>In use by 2 domains</contact:status>
+        <contact:postalInfo type='int'>
+          <contact:name>TestClient Name</contact:name>
+          <contact:addr>
+            <contact:street>Street</contact:street>
+            <contact:city>City</contact:city>
+            <contact:cc>IE</contact:cc>
+          </contact:addr>
+        </contact:postalInfo>
+        <contact:voice>123456789</contact:voice>
+        <contact:fax>123123123</contact:fax>
+        <contact:email>testcontact+general@no-mail.com</contact:email>
+        <contact:clID>dev1</contact:clID>
+        <contact:crID>dev1</contact:crID>
+        <contact:crDate>2013-08-16T13:34:27.0603Z</contact:crDate>
+        <contact:upDate>2014-02-04T08:51:13.0288Z</contact:upDate>
+        <contact:upID>dev1</contact:upID>
+        <contact:authInfo>
+          <contact:pw>w4V1iWFj</contact:pw>
+        </contact:authInfo>
+        <contact:disclose flag='0'>
+          <contact:name type='loc'/>
+          <contact:name type='int'/>
+          <contact:org type='loc'/>
+          <contact:org type='int'/>
+          <contact:addr type='loc'/>
+          <contact:addr type='int'/>
+        </contact:disclose>
+      </contact:infData>
+    </resData>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1391509163043</svTRID>
+    </trID>
+  </response>
+</epp>        
