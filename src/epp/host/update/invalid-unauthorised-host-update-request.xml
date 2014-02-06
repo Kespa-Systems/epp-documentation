@@ -1,4 +1,4 @@
-<!-- Host created by 'dev1', but logged in as 'basic' -->
+<!-- Host created by 'dev1', but logged in as 'basic', who is a no-admin user, expected response 'unauthorised'-->
 <epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
   <command>
     <update>
