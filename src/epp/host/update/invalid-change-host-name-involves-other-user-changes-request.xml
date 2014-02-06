@@ -1,0 +1,15 @@
+<!-- Assuming that ns1.basic belongs to user 'basic', and that host is associated with retest.test domain, which -->
+<!-- is sponsored by dev user -->
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <update>
+      <host:update xmlns:host='urn:ietf:params:xml:ns:host-1.0'>
+        <host:name>ns1.basic</host:name>
+        <host:chg>
+          <host:name>ns10.basic</host:name>
+        </host:chg>
+      </host:update>
+    </update>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
