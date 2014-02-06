@@ -1,0 +1,11 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <transfer op='request'>
+      <domain:transfer xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>domain.tld</domain:name>
+        <domain:period unit='year'>1</domain:period>
+      </domain:transfer>
+    </transfer>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
