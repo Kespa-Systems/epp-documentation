@@ -1,0 +1,23 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <msgQ count='19' id='1'/>
+    <resData>
+      <domain:trnData xmlns:domain='urn:ietf:params:xml:ns:domain-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd'>
+        <domain:name>domain-pending-transfer.tld</domain:name>
+        <domain:trStatus>clientRejected</domain:trStatus>
+        <domain:reID>dev1</domain:reID>
+        <domain:reDate>2014-02-05T17:16:08.438Z</domain:reDate>
+        <domain:acID>basic</domain:acID>
+        <domain:acDate>2014-02-07T14:00:55.285Z</domain:acDate>
+        <domain:exDate>2014-08-14T23:16:06.24Z</domain:exDate>
+      </domain:trnData>
+    </resData>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1391781655294</svTRID>
+    </trID>
+  </response>
+</epp>
