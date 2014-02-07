@@ -6,7 +6,7 @@
     <msgQ count='16' id='1'/>
     <resData>
       <domain:trnData xmlns:domain='urn:ietf:params:xml:ns:domain-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd'>
-        <domain:name>dog.test</domain:name>
+        <domain:name>domain-pending-transfer.tld</domain:name>
         <domain:trStatus>clientApproved</domain:trStatus>
         <domain:reID>basic</domain:reID>
         <domain:reDate>2014-02-05T14:50:51.31Z</domain:reDate>
