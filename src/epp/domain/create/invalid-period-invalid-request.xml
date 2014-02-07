@@ -3,7 +3,7 @@
     <create>
       <domain:create xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
         <domain:name>epptest2.dev</domain:name>
-        <domain:period unit='h'>313</domain:period>
+        <domain:period unit='y'>12</domain:period>
         <domain:registrant>TestContact</domain:registrant>
       </domain:create>
     </create>
