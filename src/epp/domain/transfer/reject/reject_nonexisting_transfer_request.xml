@@ -1,6 +1,6 @@
 <epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
   <command>
-    <transfer op='approve'>
+    <transfer op='reject'>
       <domain:transfer xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
         <domain:name>domain-without-transfer-request.tld</domain:name>
       </domain:transfer>
