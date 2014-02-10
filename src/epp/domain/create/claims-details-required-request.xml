@@ -1,0 +1,13 @@
+<!-- Trying to register a domain within a zone which its valid period phase requires Claims Notice Identifier (CNID) 
+and it's on the Domain Name List -->
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <create>
+      <domain:create xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>testandvalidate.dev</domain:name>
+        <domain:registrant>TestContact</domain:registrant>
+      </domain:create>
+    </create>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
