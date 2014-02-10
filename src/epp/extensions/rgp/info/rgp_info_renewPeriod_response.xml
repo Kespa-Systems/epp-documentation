@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="3" id="2"/>
+        <resData>
+            <domain:infData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd">
+                <domain:name>beer.test</domain:name>
+                <domain:roid>11-Minds</domain:roid>
+                <domain:status s="ok">Active</domain:status>
+                <domain:registrant>TestContact</domain:registrant>
+                <domain:ns>
+                    <domain:hostObj>ns1.outofzone</domain:hostObj>
+                    <domain:hostObj>ns2.test.dev</domain:hostObj>
+                </domain:ns>
+                <domain:authInfo>
+                    <domain:pw>FG2Jd8xwzq</domain:pw>
+                </domain:authInfo>
+                <domain:clID>dev1</domain:clID>
+                <domain:crID>dev1</domain:crID>
+                <domain:crDate>2013-08-16T13:36:57.0162Z</domain:crDate>
+                <domain:upID>dev1</domain:upID>
+                <domain:upDate>2014-02-07T13:33:16.0470Z</domain:upDate>
+                <domain:exDate>2016-03-07T11:51:13.0152Z</domain:exDate>
+            </domain:infData>
+        </resData>
+        <extension>
+            <rgp:infData xmlns:rgp="urn:ietf:params:xml:ns:rgp-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:rgp-1.0 rgp-1.0.xsd">
+                <rgp:rgpStatus s="renewPeriod"/>
+            </rgp:infData>
+        </extension>
+        <trID>
+            <clTRID>ABC-12345</clTRID>
+            <svTRID>1391780001288</svTRID>
+        </trID>
+    </response>
+</epp>
