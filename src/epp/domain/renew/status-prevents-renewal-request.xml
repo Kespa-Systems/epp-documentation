@@ -1,4 +1,5 @@
-<!-- Domain's status is serverRenewProhibited -->
+<!-- Domain's status is serverRenewProhibited or new expiration date fall outside the allowed range, 
+and client is not admin or zone's admin-->
 
 <epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
   <command>
