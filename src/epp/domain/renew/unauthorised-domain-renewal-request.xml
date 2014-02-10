@@ -1,0 +1,13 @@
+<!-- Client is not logged in as admin, zone admin or domain sponsor -->
+
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <renew>
+      <domain:renew xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>epptest34.kiwi</domain:name>
+        <domain:curExpDate>2018-02-10T14:11:20.0243Z</domain:curExpDate>
+      </domain:renew>
+    </renew>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
