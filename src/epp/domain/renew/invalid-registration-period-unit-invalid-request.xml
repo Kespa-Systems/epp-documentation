@@ -1,0 +1,12 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <renew>
+      <domain:renew xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>epptest34.kiwi</domain:name>
+        <domain:curExpDate>2018-02-10T14:11:20.0243Z</domain:curExpDate>
+        <domain:period unit='h'>3</domain:period>
+      </domain:renew>
+    </renew>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
