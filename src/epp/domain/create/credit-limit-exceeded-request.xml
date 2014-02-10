@@ -1,0 +1,12 @@
+<!-- Credit limit for logged in user for this zone = 1000$, this domain create will overcome that limit -->
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <create>
+      <domain:create xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>epptest21.xxy</domain:name>
+        <domain:registrant>TestContact</domain:registrant>
+      </domain:create>
+    </create>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
