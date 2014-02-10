@@ -1,0 +1,10 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <renew>
+      <domain:renew xmlns:domain='urn:ietf:params:xml:ns:renew-1.0'>
+        <domain:name>epptest9.test</domain:name>
+      </domain:renew>
+    </renew>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
