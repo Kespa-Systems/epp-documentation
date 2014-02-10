@@ -1,0 +1,14 @@
+<!-- Logged in user has no pricing settings for this zone -->
+
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <create>
+      <domain:create xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>epptest31.kiwi</domain:name>
+        <domain:period unit='y'>2</domain:period>
+        <domain:registrant>TestContact</domain:registrant>
+      </domain:create>
+    </create>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
