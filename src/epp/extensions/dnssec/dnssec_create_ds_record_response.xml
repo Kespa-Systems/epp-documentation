@@ -1,0 +1,18 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <resData>
+      <domain:creData xmlns:domain='urn:ietf:params:xml:ns:domain-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd'>
+        <domain:name>domain-to-create.test</domain:name>
+        <domain:crDate>2014-02-11T11:47:11.0717Z</domain:crDate>
+        <domain:exDate>2016-02-11T11:47:11.0987Z</domain:exDate>
+      </domain:creData>
+    </resData>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1392119231727</svTRID>
+    </trID>
+  </response>
+</epp>
