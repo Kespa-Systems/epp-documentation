@@ -2,7 +2,7 @@
   <command>
     <info>
       <domain:info xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
-        <domain:name hosts='all'>日本.魚</domain:name>
+        <domain:name hosts='all'>亨亨.魚</domain:name>
       </domain:info>
     </info>
     <clTRID>ABC-12345</clTRID>
