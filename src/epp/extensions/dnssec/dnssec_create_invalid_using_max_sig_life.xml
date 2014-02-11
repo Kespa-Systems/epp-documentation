@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <command>
+    <create>
+      <domain:create
+       xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+        <domain:name>domain-using-max-sig-life.tld</domain:name>
+        <domain:period unit="y">2</domain:period>
+        <domain:ns>
+          <domain:hostObj>ns1.example</domain:hostObj>
+          <domain:hostObj>ns2.example</domain:hostObj>
+        </domain:ns>
+        <domain:registrant>TestContact</domain:registrant>
+        <domain:contact type="admin">TestContact</domain:contact>
+        <domain:authInfo>
+          <domain:pw>2fooBAR</domain:pw>
+        </domain:authInfo>
+      </domain:create>
+    </create>
+    <extension>
+      <secDNS:create
+       xmlns:secDNS="urn:ietf:params:xml:ns:secDNS-1.1">
+        <secDNS:maxSigLife>604800</secDNS:maxSigLife>
+        <secDNS:dsData>
+          <secDNS:keyTag>12345</secDNS:keyTag>
+          <secDNS:alg>3</secDNS:alg>
+          <secDNS:digestType>1</secDNS:digestType>
+          <secDNS:digest>49FD46E6C4B45C55D4AC</secDNS:digest>
+        </secDNS:dsData>
+      </secDNS:create>
+    </extension>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
