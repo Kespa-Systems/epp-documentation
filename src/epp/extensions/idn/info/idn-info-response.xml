@@ -1,0 +1,39 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <msgQ count='2' id='1'/>
+    <resData>
+      <domain:infData xmlns:domain='urn:ietf:params:xml:ns:domain-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd'>
+        <domain:name>xn--xlqa.xn--wm6a</domain:name>
+        <domain:roid>42-Minds</domain:roid>
+        <domain:status s='ok'>Active</domain:status>
+        <domain:registrant>TestContact</domain:registrant>
+        <domain:ns>
+          <domain:hostObj>ns2.notinthezone</domain:hostObj>
+          <domain:hostObj>ns3.xn--gck.xn--wm6a</domain:hostObj>
+        </domain:ns>
+        <domain:authInfo>
+          <domain:pw>140oBmL6xC</domain:pw>
+        </domain:authInfo>
+        <domain:clID>dev1</domain:clID>
+        <domain:crID>dev1</domain:crID>
+        <domain:crDate>2013-08-16T14:59:19.0092Z</domain:crDate>
+        <domain:upID>dev1</domain:upID>
+        <domain:upDate>2013-08-16T14:59:21.0134Z</domain:upDate>
+        <domain:exDate>2014-08-16T14:59:19.0193Z</domain:exDate>
+      </domain:infData>
+    </resData>
+    <extension>
+      <idn:data xmlns:idn='urn:ietf:params:xml:ns:idn-1.0'>
+        <idn:table>jp</idn:table>
+        <idn:uname>亨亨.魚</idn:uname>
+      </idn:data>
+    </extension>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1392129014408</svTRID>
+    </trID>
+  </response>
+</epp>       
