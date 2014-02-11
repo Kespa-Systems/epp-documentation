@@ -1,0 +1,37 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <command>
+    <create>
+      <domain:create xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>domain-with-ds-dnskey-records.test</domain:name>
+        <domain:period unit='y'>2</domain:period>
+        <domain:ns>
+          <domain:hostObj>ns1.example</domain:hostObj>
+          <domain:hostObj>ns2.example</domain:hostObj>
+        </domain:ns>
+        <domain:registrant>TestContact</domain:registrant>
+        <domain:contact type='admin'>TestContact</domain:contact>
+        <domain:contact type='tech'>TestContact</domain:contact>
+        <domain:authInfo>
+          <domain:pw>2fooBAR</domain:pw>
+        </domain:authInfo>
+      </domain:create>
+    </create>
+    <extension>
+      <secDNS:create xmlns:secDNS='urn:ietf:params:xml:ns:secDNS-1.1'>
+        <secDNS:dsData>
+          <secDNS:keyTag>45063</secDNS:keyTag>
+          <secDNS:alg>3</secDNS:alg>
+          <secDNS:digestType>2</secDNS:digestType>
+          <secDNS:digest>E9B696C3AC8644735BF0A6409BE6D77BBFB4142D667E0EB0D41AD75BCC9D0D43</secDNS:digest>
+          <secDNS:keyData>
+            <secDNS:flags>257</secDNS:flags>
+            <secDNS:protocol>3</secDNS:protocol>
+            <secDNS:alg>3</secDNS:alg>
+            <secDNS:pubKey>AQPJ////4Q==</secDNS:pubKey>
+          </secDNS:keyData>
+        </secDNS:dsData>
+      </secDNS:create>
+    </extension>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
