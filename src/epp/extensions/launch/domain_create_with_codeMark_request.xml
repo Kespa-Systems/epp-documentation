@@ -1,0 +1,23 @@
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <command>
+        <create>
+            <domain:create xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd">
+                <domain:name>domain.tld</domain:name>
+                <domain:period unit="y">1</domain:period>
+                <domain:registrant>TestContact</domain:registrant>
+                <domain:authInfo>
+                    <domain:pw>QMD7qjCVka</domain:pw>
+                </domain:authInfo>
+            </domain:create>
+        </create>
+        <extension>
+            <launch:create xmlns:launch="urn:ietf:params:xml:ns:launch-1.0">
+                <launch:phase>claims</launch:phase>
+                <launch:codeMark>
+                    <launch:code>ThisIsMyToken</launch:code>
+                </launch:codeMark>
+            </launch:create>
+        </extension>
+        <clTRID>dev11392133775207</clTRID>
+    </command>
+</epp>
