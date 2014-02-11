@@ -1,0 +1,17 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <create>
+      <domain:create xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>xn--wgv71a.xn--wm6a</domain:name>
+        <domain:registrant>TestContact</domain:registrant>
+      </domain:create>
+    </create>
+    <extension>
+      <idn:data xmlns:idn='urn:ietf:params:xml:ns:idn-1.0'>
+        <idn:table>jp</idn:table>
+        <idn:uname>日本.魚</idn:uname>
+      </idn:data>
+    </extension>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
