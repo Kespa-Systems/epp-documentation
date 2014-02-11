@@ -1,0 +1,37 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <command>
+    <create>
+      <domain:create xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>not-matching-records.test</domain:name>
+        <domain:period unit='y'>2</domain:period>
+        <domain:ns>
+          <domain:hostObj>ns1.example</domain:hostObj>
+          <domain:hostObj>ns2.example</domain:hostObj>
+        </domain:ns>
+        <domain:registrant>TestContact</domain:registrant>
+        <domain:contact type='admin'>TestContact</domain:contact>
+        <domain:contact type='tech'>TestContact</domain:contact>
+        <domain:authInfo>
+          <domain:pw>2fooBAR</domain:pw>
+        </domain:authInfo>
+      </domain:create>
+    </create>
+    <extension>
+      <secDNS:create xmlns:secDNS='urn:ietf:params:xml:ns:secDNS-1.1'>
+        <secDNS:dsData>
+          <secDNS:keyTag>45067</secDNS:keyTag>
+          <secDNS:alg>8</secDNS:alg>
+          <secDNS:digestType>2</secDNS:digestType>
+          <secDNS:digest>3DB60F82ADAAD8411CBF2F196FF7E88BBDBC132AAADF49F01AE5391B0177F6CE</secDNS:digest>
+          <secDNS:keyData>
+            <secDNS:flags>257</secDNS:flags>
+            <secDNS:protocol>3</secDNS:protocol>
+            <secDNS:alg>1</secDNS:alg>
+            <secDNS:pubKey>AQPJ////4Q==</secDNS:pubKey>
+          </secDNS:keyData>
+        </secDNS:dsData>
+      </secDNS:create>
+    </extension>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
