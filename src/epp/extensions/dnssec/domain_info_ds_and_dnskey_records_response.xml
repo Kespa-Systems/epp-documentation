@@ -1,0 +1,48 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <resData>
+      <domain:infData xmlns:domain='urn:ietf:params:xml:ns:domain-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd'>
+        <domain:name>domain-with-ds-dnskey-records.tld</domain:name>
+        <domain:roid>13-Minds</domain:roid>
+        <domain:status s='ok'>Active</domain:status>
+        <domain:registrant>TestContact</domain:registrant>
+        <domain:ns>
+          <domain:hostObj>ns1.domain-with-ds-dnskey-records.tld</domain:hostObj>
+          <domain:hostObj>ns2.domain-with-ds-dnskey-records.tld</domain:hostObj>
+        </domain:ns>
+        <domain:authInfo>
+          <domain:pw>KAYc7TutUK</domain:pw>
+        </domain:authInfo>
+        <domain:clID>dev1</domain:clID>
+        <domain:crID>dev1</domain:crID>
+        <domain:crDate>2013-08-16T13:36:57.0986Z</domain:crDate>
+        <domain:upID>dev1</domain:upID>
+        <domain:upDate>2014-02-11T10:40:15.0694Z</domain:upDate>
+        <domain:exDate>2014-08-16T13:36:57.0999Z</domain:exDate>
+      </domain:infData>
+    </resData>
+    <extension>
+      <secDNS:infData xmlns:secDNS='urn:ietf:params:xml:ns:secDNS-1.1'>
+        <secDNS:dsData>
+          <secDNS:keyTag>65535</secDNS:keyTag>
+          <secDNS:alg>1</secDNS:alg>
+          <secDNS:digestType>2</secDNS:digestType>
+          <secDNS:digest>BCDCB716D68E0D67ACF68D32133DA0F12E179780B447B3201D7C9D26A2719C35</secDNS:digest>
+          <secDNS:keyData>
+            <secDNS:flags>257</secDNS:flags>
+            <secDNS:protocol>3</secDNS:protocol>
+            <secDNS:alg>1</secDNS:alg>
+            <secDNS:pubKey>AQPJ////4Q==</secDNS:pubKey>
+          </secDNS:keyData>
+        </secDNS:dsData>
+      </secDNS:infData>
+    </extension>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1392117252061</svTRID>
+    </trID>
+  </response>
+</epp>
