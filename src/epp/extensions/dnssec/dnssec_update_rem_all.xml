@@ -9,7 +9,7 @@
       </domain:update>
     </update>
     <extension>
-      <secDNS:update xmlns:secDNS="urn:ietf:params:xml:ns:secDNS-1.0">
+      <secDNS:update xmlns:secDNS="urn:ietf:params:xml:ns:secDNS-1.1">
         <secDNS:rem>
           <secDNS:all>true</secDNS:all>
         </secDNS:rem>
