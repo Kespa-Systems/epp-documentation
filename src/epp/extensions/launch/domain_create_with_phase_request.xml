@@ -2,7 +2,7 @@
     <command>
         <create>
             <domain:create xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
-                <domain:name>dupachujx.xxy</domain:name>
+                <domain:name>domain.tld</domain:name>
                 <domain:registrant>TestContact</domain:registrant>
             </domain:create>
         </create>
