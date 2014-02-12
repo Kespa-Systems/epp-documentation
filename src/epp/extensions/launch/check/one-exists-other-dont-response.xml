@@ -1,0 +1,23 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <extension>
+      <launch:chkData xmlns:launch='urn:ietf:params:xml:ns:launch-1.0'>
+        <launch:phase>claims</launch:phase>
+        <launch:cd>
+          <launch:name exists='1'>testvalidate.claims</launch:name>
+          <launch:claimKey>2014021201/7/1/a/caCHfkmWVuyMbDUNpy</launch:claimKey>
+        </launch:cd>
+        <launch:cd>
+          <launch:name exists='0'>nonexist.claims</launch:name>
+        </launch:cd>
+      </launch:chkData>
+    </extension>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1392220839641</svTRID>
+    </trID>
+  </response>
+</epp>   
