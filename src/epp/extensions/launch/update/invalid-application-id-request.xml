@@ -1,0 +1,21 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <update>
+      <domain:update xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>epptests.claims</domain:name>
+        <domain:add>
+          <domain:ns>
+            <domain:hostObj>ns3.example</domain:hostObj>
+          </domain:ns>
+        </domain:add>
+      </domain:update>
+    </update>
+    <extension>
+      <launch:update xmlns:launch='urn:ietf:params:xml:ns:launch-1.0'>
+        <launch:phase>claims</launch:phase>
+        <launch:applicationID>Invalid</launch:applicationID>
+      </launch:update>
+    </extension>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
