@@ -1,22 +1,16 @@
-<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
-  <response>
-    <result code='1000'>
-      <msg>Command completed successfully</msg>
-    </result>
-    <resData>
-      <domain:chkData xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
-        <domain:cd>
-          <domain:name avail='0'>jesus.dev</domain:name>
-          <domain:reason>No Period Phase in Period.</domain:reason>
-        </domain:cd>
-        <domain:cd>
-          <domain:name avail='1'>nonexist.claims</domain:name>
-        </domain:cd>
-      </domain:chkData>
-    </resData>
-    <trID>
-      <clTRID>ABC-12345</clTRID>
-      <svTRID>1392226709414</svTRID>
-    </trID>
-  </response>
-</epp>    
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <check>
+      <domain:check xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>jesus.dev</domain:name>
+        <domain:name>nonexist.claims</domain:name>
+      </domain:check>
+    </check>
+    <extension>
+      <launch:check xmlns:launch='urn:ietf:params:xml:ns:launch-1.0' type='avail'>
+        <launch:phase>claims</launch:phase>
+      </launch:check>
+    </extension>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
