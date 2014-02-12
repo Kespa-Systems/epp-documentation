@@ -1,0 +1,14 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <check>
+      <domain:check xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>jesus.dev</domain:name>
+        <domain:name>nonexist.claims</domain:name>
+      </domain:check>
+    </check>
+    <extension>
+      <launch:check xmlns:launch='urn:ietf:params:xml:ns:launch-1.0' type='avail'> </launch:check>
+    </extension>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
