@@ -2,7 +2,7 @@
 <epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
     <response>
         <result code="2005">
-            <msg>Parameter value syntax error; Requested type = 'APPLICATION' while only domains are accepted.</msg>
+            <msg>Parameter value syntax error; Requested type = 'APPLICATION' while only registrations are accepted.</msg>
         </result>
         <trID>
             <clTRID>ABC-12345</clTRID>
