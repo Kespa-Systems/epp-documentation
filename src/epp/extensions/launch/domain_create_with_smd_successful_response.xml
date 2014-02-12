@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="14" id="5"/>
+        <resData>
+            <domain:creData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd">
+                <domain:name>testetvalidate.sunrise</domain:name>
+                <domain:crDate>2014-02-12T10:12:08.0748Z</domain:crDate>
+            </domain:creData>
+        </resData>
+        <extension>
+            <launch:creData xmlns:launch="urn:ietf:params:xml:ns:launch-1.0">
+                <launch:phase>sunrise</launch:phase>
+                <launch:applicationID>6</launch:applicationID>
+            </launch:creData>
+        </extension>
+        <trID>
+            <clTRID>dev11392138763249</clTRID>
+            <svTRID>1392199928755</svTRID>
+        </trID>
+    </response>
+</epp>
