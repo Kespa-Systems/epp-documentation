@@ -1,0 +1,32 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <resData>
+      <domain:infData xmlns:domain='urn:ietf:params:xml:ns:domain-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd'>
+        <domain:name>testvalidate.tld</domain:name>
+        <domain:roid>2</domain:roid>
+        <domain:registrant>Qc1wRHPK</domain:registrant>
+        <domain:ns/>
+        <domain:authInfo>
+          <domain:pw>7zvnjYQfsO</domain:pw>
+        </domain:authInfo>
+        <domain:clID>dev1</domain:clID>
+        <domain:crID>dev1</domain:crID>
+        <domain:crDate>2014-02-13T10:25:58.0335Z</domain:crDate>
+      </domain:infData>
+    </resData>
+    <extension>
+      <launch:infData xmlns:launch='urn:ietf:params:xml:ns:launch-1.0'>
+        <launch:phase>claims</launch:phase>
+        <launch:applicationID>2</launch:applicationID>
+        <launch:status s='validated'>Validation Successful</launch:status>
+      </launch:infData>
+    </extension>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1392300474979</svTRID>
+    </trID>
+  </response>
+</epp>
