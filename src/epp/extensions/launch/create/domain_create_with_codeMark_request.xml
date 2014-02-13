@@ -12,7 +12,7 @@
         </create>
         <extension>
             <launch:create xmlns:launch="urn:ietf:params:xml:ns:launch-1.0">
-                <launch:phase>claims</launch:phase>
+                <launch:phase>open</launch:phase>
                 <launch:codeMark>
                     <launch:code>ThisIsMyToken</launch:code>
                 </launch:codeMark>
