@@ -68,7 +68,6 @@
             <mark:regDate>2012-12-31T23:00:00.0000Z</mark:regDate>
           </mark:trademark>
         </mark:mark>
-        <launch:status s='pendingValidation'>Pending Validation</launch:status>
         <launch:status s='validated'>Validation Successful</launch:status>
       </launch:infData>
     </extension>
