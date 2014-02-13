@@ -1,0 +1,16 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+  <command>
+    <delete>
+      <domain:delete xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+        <domain:name>epptest.claims</domain:name>
+      </domain:delete>
+    </delete>
+    <extension>
+      <launch:delete xmlns:launch='urn:ietf:params:xml:ns:launch-1.0'>
+        <launch:phase>claims</launch:phase>
+        <launch:applicationID>invalid</launch:applicationID>
+      </launch:delete>
+    </extension>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
