@@ -2,7 +2,7 @@
   <command>
     <update>
       <domain:update xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
-        <domain:name>epptest.claims</domain:name>
+        <domain:name>epptestunknown.claims</domain:name>
         <domain:add>
           <domain:ns>
             <domain:hostObj>onenew.new</domain:hostObj>
