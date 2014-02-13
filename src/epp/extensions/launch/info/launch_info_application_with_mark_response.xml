@@ -1,0 +1,80 @@
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd'>
+  <response>
+    <result code='1000'>
+      <msg>Command completed successfully</msg>
+    </result>
+    <resData>
+      <domain:infData xmlns:domain='urn:ietf:params:xml:ns:domain-1.0' xsi:schemaLocation='urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd'>
+        <domain:name>testvalidate.sunrise</domain:name>
+        <domain:roid>2</domain:roid>
+        <domain:registrant>Qc1wRHPK</domain:registrant>
+        <domain:ns/>
+        <domain:authInfo>
+          <domain:pw>7zvnjYQfsO</domain:pw>
+        </domain:authInfo>
+        <domain:clID>dev1</domain:clID>
+        <domain:crID>dev1</domain:crID>
+        <domain:crDate>2014-02-13T10:25:58.0335Z</domain:crDate>
+      </domain:infData>
+    </resData>
+    <extension>
+      <launch:infData xmlns:launch='urn:ietf:params:xml:ns:launch-1.0'>
+        <launch:phase>sunrise</launch:phase>
+        <launch:applicationID>2</launch:applicationID>
+        <mark:mark xmlns:mark='urn:ietf:params:xml:ns:mark-1.0' xmlns:ns2='urn:ietf:params:xml:ns:signedMark-1.0' xmlns:ns3='http://www.w3.org/2000/09/xmldsig#'>
+          <mark:trademark>
+            <mark:id>00052013734689731373468973-65535</mark:id>
+            <mark:markName>Test &amp; Validate</mark:markName>
+            <mark:holder entitlement='owner'>
+              <mark:org>Ag corporation</mark:org>
+              <mark:addr>
+                <mark:street>1305 Bright Avenue</mark:street>
+                <mark:city>Arcadia</mark:city>
+                <mark:sp>CA</mark:sp>
+                <mark:pc>90028</mark:pc>
+                <mark:cc>US</mark:cc>
+              </mark:addr>
+              <mark:voice/>
+              <mark:fax/>
+            </mark:holder>
+            <mark:contact type='agent'>
+              <mark:name>Tony Holland</mark:name>
+              <mark:org>Ag corporation</mark:org>
+              <mark:addr>
+                <mark:street>1305 Bright Avenue</mark:street>
+                <mark:city>Arcadia</mark:city>
+                <mark:sp>CA</mark:sp>
+                <mark:pc>90028</mark:pc>
+                <mark:cc>US</mark:cc>
+              </mark:addr>
+              <mark:voice>+1.2025562302</mark:voice>
+              <mark:fax>+1.2025562301</mark:fax>
+              <mark:email>info@agcorporation.com</mark:email>
+            </mark:contact>
+            <mark:jurisdiction>US</mark:jurisdiction>
+            <mark:class>15</mark:class>
+            <mark:label>testandvalidate</mark:label>
+            <mark:label>test---validate</mark:label>
+            <mark:label>testand-validate</mark:label>
+            <mark:label>test-et-validate</mark:label>
+            <mark:label>test-validate</mark:label>
+            <mark:label>test--validate</mark:label>
+            <mark:label>test-etvalidate</mark:label>
+            <mark:label>testetvalidate</mark:label>
+            <mark:label>testvalidate</mark:label>
+            <mark:label>testet-validate</mark:label>
+            <mark:goodsAndServices>guitar</mark:goodsAndServices>
+            <mark:regNum>1234</mark:regNum>
+            <mark:regDate>2012-12-31T23:00:00.0000Z</mark:regDate>
+          </mark:trademark>
+        </mark:mark>
+        <launch:status s='pendingValidation'>Pending Validation</launch:status>
+        <launch:status s='validated'>Validation Successful</launch:status>
+      </launch:infData>
+    </extension>
+    <trID>
+      <clTRID>ABC-12345</clTRID>
+      <svTRID>1392287276951</svTRID>
+    </trID>
+  </response>
+</epp>
