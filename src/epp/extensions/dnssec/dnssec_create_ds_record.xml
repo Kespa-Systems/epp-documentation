@@ -21,7 +21,7 @@
           <secDNS:keyTag>12345</secDNS:keyTag>
           <secDNS:alg>3</secDNS:alg>
           <secDNS:digestType>1</secDNS:digestType>
-          <secDNS:digest>49FD46E6C4B45C55D4AC</secDNS:digest>
+          <secDNS:digest>4347d0f8ba661234a8eadc005e2e1d1b646c9682</secDNS:digest>
         </secDNS:dsData>
       </secDNS:create>
     </extension>
