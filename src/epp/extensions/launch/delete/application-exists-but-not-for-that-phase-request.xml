@@ -7,7 +7,7 @@
     </delete>
     <extension>
       <launch:delete xmlns:launch='urn:ietf:params:xml:ns:launch-1.0'>
-        <launch:phase>claims</launch:phase>
+        <launch:phase>sunrise</launch:phase>
         <launch:applicationID>1</launch:applicationID>
       </launch:delete>
     </extension>
