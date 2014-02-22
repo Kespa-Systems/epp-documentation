@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="1" id="2">
+            <qDate>2014-02-22T20:16:08.348Z</qDate>
+            <msg lang="en">
+                <![CDATA[application for name 'domain.tld' (with id 7) has been rejected]]>
+            </msg>
+        </msgQ>
+        <resData>
+            <domain:panData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name paResult="0">domain.tld</domain:name>
+                <domain:paTRID>
+                    <clTRID>dev11393100136790</clTRID>
+                    <svTRID>1393100136930</svTRID>
+                </domain:paTRID>
+                <domain:paDate>2014-02-22T20:16:08.972Z</domain:paDate>
+            </domain:panData>
+        </resData>
+        <extension>
+            <launch:infData xmlns:launch="urn:ietf:params:xml:ns:launch-1.0">
+                <launch:phase>landrush</launch:phase>
+                <launch:applicationID>7</launch:applicationID>
+                <launch:status s="rejected">Manually rejected by Oisin Kelly</launch:status>
+            </launch:infData>
+        </extension>
+        <trID>
+            <clTRID>ABC-12345</clTRID>
+            <svTRID>1393100175758</svTRID>
+        </trID>
+    </response>
+</epp>
