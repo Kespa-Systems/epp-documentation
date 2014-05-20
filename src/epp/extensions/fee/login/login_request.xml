@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+  <command>
+    <login>
+      <clID>clientId</clID>
+      <pw>password</pw>
+      <svcs>
+        <svcExtension>
+          <extURI>urn:ietf:params:xml:ns:fee-0.5</extURI>
+        </svcExtension>
+      </svcs>
+    </login>
+    <clTRID>ABC-12345</clTRID>
+  </command>
+</epp>
