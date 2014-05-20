@@ -10,7 +10,7 @@
             <fee:check xmlns:fee="urn:ietf:params:xml:ns:fee-0.5">
                 <fee:domain>andy.dev</fee:domain>
                 <fee:currency>USD</fee:currency>
-                <fee:action>create</fee:action>
+                <fee:action phase="open">create</fee:action>
                 <fee:period unit="y">1</fee:period>
             </fee:check>
         </extension>
