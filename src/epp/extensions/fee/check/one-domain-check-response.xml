@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <domain:chkData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:cd>
+                    <domain:name avail="0">beer.dev</domain:name>
+                    <domain:reason>the domain exists</domain:reason>
+                </domain:cd>
+            </domain:chkData>
+        </resData>
+        <extension>
+            <fee:chkData xmlns:fee="urn:ietf:params:xml:ns:fee-0.5">
+                <fee:domain>andy.dev</fee:domain>
+                <fee:currency>USD</fee:currency>
+                <fee:action phase="open">create</fee:action>
+                <fee:period unit="y">1</fee:period>
+                <fee:fee description="Phase Fee">13.37</fee:fee>
+                <fee:fee description="Registration Fee">10.00</fee:fee>
+            </fee:chkData>
+        </extension>
+        <trID>
+            <clTRID>ABC-12345</clTRID>
+            <svTRID>1400591227854</svTRID>
+        </trID>
+    </response>
+</epp>
