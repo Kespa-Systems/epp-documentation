@@ -1,0 +1,25 @@
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <command>
+        <create>
+            <domain:create xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd">
+                <domain:name>testetvalidate.xxy</domain:name>
+                <domain:period unit="y">1</domain:period>
+                <domain:registrant>TestContact</domain:registrant>
+                <domain:authInfo>
+                    <domain:pw>PQqOYxPWgZ</domain:pw>
+                </domain:authInfo>
+            </domain:create>
+        </create>
+        <extension>
+            <launch:create xmlns:launch="urn:ietf:params:xml:ns:launch-1.0">
+                <launch:phase name="claims">landrush</launch:phase>
+                <launch:notice>
+                    <launch:noticeID>8dc277768901234567891234567</launch:noticeID>
+                    <launch:notAfter>2015-02-13T12:12:12.0000Z</launch:notAfter>
+                    <launch:acceptedDate>2014-02-13T12:12:12.0000Z</launch:acceptedDate>
+                </launch:notice>
+            </launch:create>
+        </extension>
+        <clTRID>dev11392310058737</clTRID>
+    </command>
+</epp>
