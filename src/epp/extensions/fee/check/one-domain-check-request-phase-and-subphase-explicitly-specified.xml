@@ -1,18 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
     <command>
         <check>
-            <domain:check xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
-                <domain:name>beer.dev</domain:name>
+            <domain:check xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+                <domain:name>example.com</domain:name>
+                <domain:name>example.net</domain:name>
+                <domain:name>example.org</domain:name>
             </domain:check>
         </check>
         <extension>
-            <fee:check xmlns:fee="urn:ietf:params:xml:ns:fee-0.5">
-                <fee:domain>andy.dev</fee:domain>
-                <fee:currency>USD</fee:currency>
-                <fee:action phase="custom" subphase="myphase">create</fee:action>
-                <fee:period unit="y">1</fee:period>
-            </fee:check>
+            <fee:check xmlns:fee='urn:ietf:params:xml:ns:fee-0.5'>
+	            <fee:domain>
+		            <fee:name>example.kiwi</fee:name>
+		            <fee:currency>USD</fee:currency>
+		            <fee:command phase='open' subphase="custom-name">create</fee:command>
+		            <fee:period unit='y'>2</fee:period>
+	            </fee:domain>
+           </fee:check>
         </extension>
         <clTRID>ABC-12345</clTRID>
     </command>
