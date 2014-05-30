@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <resData>
+            <domain:creData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd">
+                <domain:name>example.tld</domain:name>
+                <domain:crDate>2014-05-30T13:57:07.0059Z</domain:crDate>
+                <domain:exDate>2016-05-30T13:57:08.0429Z</domain:exDate>
+            </domain:creData>
+        </resData>
+        <extension>
+            <fee:creData xmlns:fee="urn:ietf:params:xml:ns:fee-0.5">
+                <fee:currency>USD</fee:currency>
+                <fee:fee>33.37</fee:fee>
+            </fee:creData>
+        </extension>
+        <trID>
+            <clTRID>ABC-12345</clTRID>
+            <svTRID>14014582270820</svTRID>
+        </trID>
+    </response>
+</epp>
