@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="1" id="6">
+            <qDate>2014-10-14T17:02:05.406Z</qDate>
+            <msg lang="en">
+                <![CDATA[application for name 'example.sunrise' has been approved]]>
+            </msg>
+        </msgQ>
+        <resData>
+            <domain:panData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name paResult="1">example.sunrise</domain:name>
+                <domain:paTRID>
+                    <clTRID>dev11392372756864</clTRID>
+                    <svTRID>1392372756894</svTRID>
+                </domain:paTRID>
+                <domain:paDate>2014-10-14T17:02:06.894Z</domain:paDate>
+            </domain:panData>
+        </resData>
+        <extension>
+            <launch:infData xmlns:launch="urn:ietf:params:xml:ns:launch-1.0">
+                <launch:phase>sunrise</launch:phase>
+                <launch:applicationID>4</launch:applicationID>
+                <launch:status s="allocated">Approved and Allocated</launch:status>
+            </launch:infData>
+        </extension>
+        <trID>
+            <clTRID>ABC-12345</clTRID>
+            <svTRID>14133061313530</svTRID>
+        </trID>
+    </response>
+</epp>
