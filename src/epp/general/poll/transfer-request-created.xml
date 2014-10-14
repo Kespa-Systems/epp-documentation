@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="1" id="8">
+            <qDate>2014-10-14T17:06:22.118Z</qDate>
+            <msg lang="en">
+                <![CDATA[Domain transfer requested; Transfer response required <domain>domain.test</domain>]]></msg>
+        </msgQ>
+        <resData>
+            <domain:panData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name paResult="0">domain.test</domain:name>
+                <domain:paTRID>
+                    <clTRID>basic1413306382073</clTRID>
+                    <svTRID>14133063821310</svTRID>
+                </domain:paTRID>
+                <domain:paDate>2014-10-14T17:06:25.818Z</domain:paDate>
+            </domain:panData>
+        </resData>
+        <trID>
+            <clTRID>ABC-12345</clTRID>
+            <svTRID>14133063872930</svTRID>
+        </trID>
+    </response>
+</epp>
