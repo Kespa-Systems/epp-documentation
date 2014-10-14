@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="1" id="5">
+            <qDate>2014-10-14T16:59:26.641Z</qDate>
+            <msg lang="en">
+                <![CDATA[application for name 'application.landrush' (with id 1) has been rejected]]>
+            </msg>
+        </msgQ>
+        <resData>
+            <domain:panData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name paResult="0">application.landrush</domain:name>
+                <domain:paTRID>
+                    <clTRID>dev11392372753513</clTRID>
+                    <svTRID>1392372753571</svTRID>
+                </domain:paTRID>
+                <domain:paDate>2014-10-14T16:59:26.999Z</domain:paDate>
+            </domain:panData>
+        </resData>
+        <extension>
+            <launch:infData xmlns:launch="urn:ietf:params:xml:ns:launch-1.0">
+                <launch:phase>landrush</launch:phase>
+                <launch:applicationID>1</launch:applicationID>
+                <launch:status s="rejected">Rejected by Test Registrar</launch:status>
+            </launch:infData>
+        </extension>
+        <trID>
+            <clTRID>ABC-12345</clTRID>
+            <svTRID>14133059699760</svTRID>
+        </trID>
+    </response>
+</epp>
