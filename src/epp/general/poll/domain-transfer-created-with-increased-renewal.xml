@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="1" id="15">
+            <qDate>2014-10-15T09:47:53.686Z</qDate>
+            <msg lang="en">
+                <![CDATA[While requesting transfer for <domain>domain.test</domain> - minimum renewal for zone is 1 y - increasing this to match minimum]]></msg>
+        </msgQ>
+        <resData>
+            <domain:panData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name paResult="0">domain.test</domain:name>
+                <domain:paTRID>
+                    <clTRID>basic1413366473680</clTRID>
+                    <svTRID>14133664737210</svTRID>
+                </domain:paTRID>
+                <domain:paDate>2014-10-15T09:47:54.039Z</domain:paDate>
+            </domain:panData>
+        </resData>
+        <trID>
+            <clTRID>ABC-12345</clTRID>
+            <svTRID>14133664774110</svTRID>
+        </trID>
+    </response>
+</epp>
