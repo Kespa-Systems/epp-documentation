@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="1" id="19">
+            <qDate>2014-10-15T10:25:29.218Z</qDate>
+            <msg lang="en">
+                <![CDATA[Domain transfer rejected on your behalf. <domain>andy.dev</domain>]]></msg>
+        </msgQ>
+        <resData>
+            <domain:panData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name paResult="0">andy.dev</domain:name>
+                <domain:paTRID>
+                    <clTRID>dev11413367037297</clTRID>
+                    <svTRID>14133670373100</svTRID>
+                </domain:paTRID>
+                <domain:paDate>2014-10-15T10:25:35.328Z</domain:paDate>
+            </domain:panData>
+        </resData>
+        <trID>
+            <clTRID>ABC-12345</clTRID>
+            <svTRID>14133687404960</svTRID>
+        </trID>
+    </response>
+</epp>
