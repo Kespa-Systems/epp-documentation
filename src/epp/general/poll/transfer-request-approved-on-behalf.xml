@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1301">
+            <msg>Command completed successfully; ack to dequeue</msg>
+        </result>
+        <msgQ count="1" id="31">
+            <qDate>2014-10-15T11:15:13.88Z</qDate>
+            <msg lang="en">
+                <![CDATA[Domain transfer approved on your behalf. <domain>hot.dev</domain>
+Domain transferred away from you. <domain>hot.dev</domain>]]></msg>
+        </msgQ>
+        <resData>
+            <domain:panData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name paResult="1">hot.dev</domain:name>
+                <domain:paTRID>
+                    <clTRID>dev11413370609653</clTRID>
+                    <svTRID>14133706096700</svTRID>
+                </domain:paTRID>
+                <domain:paDate>2014-10-15T11:15:13.857Z</domain:paDate>
+            </domain:panData>
+        </resData>
+        <trID>
+            <clTRID>ABC-12345</clTRID>
+            <svTRID>14133724882910</svTRID>
+        </trID>
+    </response>
+</epp>
