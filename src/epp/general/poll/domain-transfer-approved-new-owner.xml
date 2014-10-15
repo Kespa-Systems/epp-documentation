@@ -4,24 +4,25 @@
         <result code="1301">
             <msg>Command completed successfully; ack to dequeue</msg>
         </result>
-        <msgQ count="2" id="12">
-            <qDate>2014-10-15T09:30:57.938Z</qDate>
+        <msgQ count="1" id="13">
+            <qDate>2014-10-15T09:41:56.392Z</qDate>
             <msg lang="en">
-                <![CDATA[While requesting transfer for <domain>domain.test</domain> - minimum renewal for zone is 1 y - increasing this to match minimum]]></msg>
+                <![CDATA[Domain transfer approved. <domain>domain.test</domain>
+Domain transferred to you. <domain>domain.test</domain>]]></msg>
         </msgQ>
         <resData>
             <domain:panData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
-                <domain:name paResult="0">domain.test</domain:name>
+                <domain:name paResult="1">domain.test</domain:name>
                 <domain:paTRID>
                     <clTRID>basic1413365457911</clTRID>
                     <svTRID>14133654579510</svTRID>
                 </domain:paTRID>
-                <domain:paDate>2014-10-15T09:30:58.243Z</domain:paDate>
+                <domain:paDate>2014-10-15T09:41:57.472Z</domain:paDate>
             </domain:panData>
         </resData>
         <trID>
             <clTRID>ABC-12345</clTRID>
-            <svTRID>14133661264090</svTRID>
+            <svTRID>14133663302460</svTRID>
         </trID>
     </response>
 </epp>
