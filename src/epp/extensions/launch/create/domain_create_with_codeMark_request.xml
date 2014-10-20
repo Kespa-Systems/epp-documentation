@@ -14,7 +14,7 @@
             <launch:create xmlns:launch="urn:ietf:params:xml:ns:launch-1.0">
                 <launch:phase>open</launch:phase>
                 <launch:codeMark>
-                    <launch:code>ThisIsMyToken</launch:code>
+                    <launch:code>ThisIsMyToken-from-special_name_list_name-table</launch:code>
                 </launch:codeMark>
             </launch:create>
         </extension>
