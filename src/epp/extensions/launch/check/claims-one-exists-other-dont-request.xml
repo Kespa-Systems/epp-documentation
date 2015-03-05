@@ -8,7 +8,7 @@
     </check>
     <extension>
       <launch:check xmlns:launch='urn:ietf:params:xml:ns:launch-1.0' type='claims'>
-        <launch:phase>claims</launch:phase>
+        <launch:phase name="open">claims</launch:phase>
       </launch:check>
     </extension>
     <clTRID>ABC-12345</clTRID>
